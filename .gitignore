@@ -1,0 +1,20 @@
+# ROS 2 / colcon build artifacts
+build/
+install/
+log/
+
+# Dataset locali (troppo grandi per Git)
+data/
+*.bag
+*.db3
+*.mcap
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor e sistema
+.vscode/
+.idea/
+.DS_Store
